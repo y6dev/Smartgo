@@ -1,15 +1,11 @@
 {
+ "framework": null,
+ "installCommand": "echo 'No install needed'",
+ "buildCommand": "echo 'Static site, nothing to build'",
+ "outputDirectory": "public",
  "cleanUrls": true,
  "trailingSlash": true,
  "headers": [
-  {
-   "source": "/style.css",
-   "headers": [
-    {
-     "key": "Cache-Control",
-     "value": "public, max-age=604800"
-    }
-   ]
-  }
+  {"source": "/style.css", "headers": [{"key": "Cache-Control", "value": "public, max-age=604800"}]}
  ]
 }
